@@ -11,12 +11,15 @@
 This is a proof of concept for using TensorBoard for arbitrary numeric logging.
 You could use it with Flux.jl,  or with what ever else you want.
 
+Won't work on Windows, because TensorFlow.jl does't work on Windows
+
 ## Usage
 usage is very simple
 
  - `@tb_log foo` to log the current value of `foo`.
  - `set_tb_logdir(new_dir)` sets the logging directory to `new_dir`
  - `reset_tb_logs()` clears all current logs
+ - `tensorboard()` opens TensorBoard in your default browser (or you can open it manually the normal way)
 
 
 ## Example
