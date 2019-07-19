@@ -1,5 +1,5 @@
 # UniversalTensorBoard
-** Deprecated in favor of https://github.com/PhilipVinc/TensorBoardLogger.jl/ **
+**Deprecated in favor of https://github.com/PhilipVinc/TensorBoardLogger.jl/**
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://oxinabox.github.io/UniversalTensorBoard.jl/stable)
 [![Latest](https://img.shields.io/badge/docs-latest-blue.svg)](https://oxinabox.github.io/UniversalTensorBoard.jl/latest)
